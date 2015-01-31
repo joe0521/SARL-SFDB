@@ -12,6 +12,9 @@
     
     <!-- Feuille de style principale    -->
     <link rel="stylesheet" href="style/sfdb.css">
+    
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -24,7 +27,7 @@
 <body>
     
     <!-- PREMIERE SECTION -->
-    <header id="home" class="header">
+    <header class="header" id="home">
         <div class="main-nav">
             <!-- LA BARRE DE NAVIGATION -->
             <nav class="navbar navbar-default navbar-fixed-top">
@@ -43,13 +46,13 @@
                     <div id="navbar" class="collapse navbar-collapse">
                         <!-- MENU DE NAVIGATION -->
                         <ul class="nav navbar-nav pull-right custom-nav">
-                            <li class="active"><a href="#home">Accueil</a>
+                            <li class="current"><a class="menu-link" href="#home">Accueil</a>
                             </li>
-                            <li><a href="#realisations">Réalisations</a>
+                            <li><a class="menu-link" href="#realisations">Réalisations</a>
                             </li>
-                            <li><a href="#entreprise">L'entreprise</a>
+                            <li><a class="menu-link" href="#entreprise">L'entreprise</a>
                             </li>
-                            <li><a href="#contact">Contact</a>
+                            <li><a class="menu-link" href="#contact">Contact</a>
                             </li>
                         </ul>
                     </div>
@@ -60,20 +63,20 @@
     </header>
     
     <!-- SECTION REALISATION -->
-    <section class="realisation" id="realisation">
+    <section class="realisations" id="realisations">
        <!-- CONTENEUR BOOTSTRAP -->
         <div class="container">
           <!-- TITRE DE LA SECTION -->
             <div class="row">
                <div class="section-titre">
                    <h1>Nos Réalisations</h1>
-                   <h5>Découvrez toutes nos réalisations</h5>
+                   <h4>Découvrez toutes nos réalisations</h4>
                </div>
             </div>
            <!-- CONTENU SECTION -->
            <div class="row">
                     <div class="rea-icone col-lg-4">
-                        <a href="#" class="circle-contour"><img src="images/portails.png" alt="Poratils" class="rea-img"></a>
+                        <a href="#" class="circle-contour"><img src="images/portails.png" alt="Poratils" class="img-circle img-responsive"></a>
                         <h2 class="titre-under">Portails</h2>
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus quis lectus
@@ -81,7 +84,7 @@
                         </p>
                     </div>
                     <div class="rea-icone col-lg-4">
-                      <a href="#" class="circle-contour"><img src="images/gardecorps.png" alt="Garde corps" class="rea-img"></a>
+                      <a href="#" class="circle-contour"><img src="images/gardecorps.png" alt="Garde corps" class="img-circle img-responsive"></a>
                       <h2 class="titre-under">Garde corps</h2>
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus quis lectus
@@ -89,7 +92,7 @@
                         </p> 
                     </div>
                     <div class="rea-icone col-lg-4">
-                      <a href="#" class="circle-contour"><img src="images/menuiserie.png" alt="Menuiserie" class="rea-img"></a>
+                      <a href="#" class="circle-contour"><img src="images/menuiserie.png" alt="Menuiserie" class="img-circle img-responsive"></a>
                       <h2 class="titre-under">Menuiserie</h2>
                       <p>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus quis lectus
@@ -102,9 +105,70 @@
     
     <!-- SECTION SEPARATION -->
     <section class="separation">
-        <h2 class="separation-text">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-        </h2>
+        <div class="container">
+            <h2 class="separation-text">
+               <div class="row">
+                    <div class="col-xs-12">
+                       <p>Découvrez Quelques images de notre dernier chantier.</p>
+                    </div>
+                </div>
+                <ul class="row galerie">
+                    <li class="gal-item col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                        <img src="images/chantier/Image1.jpg" alt="Image1" class="img-responsive">
+                        <div class="img-mask">
+                           <div class="img-title">
+                               Titre Image
+                           </div>
+                            
+                        </div>
+                    </li>
+                    <li class="gal-item col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                        <img src="images/chantier/Image2.jpg" alt="Image2" class="img-responsive">
+                        
+                    </li>
+                    <li class="gal-item col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                        <img src="images/chantier/Image3.jpg" alt="Image3" class="img-responsive">
+                        
+                    </li>
+                    <li class="gal-item col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                        <img src="images/chantier/Image4.jpg" alt="Image4" class="img-responsive">
+                        
+                    </li>
+                    <li class="gal-item col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                        <img src="images/chantier/Image5.jpg" alt="Image5" class="img-responsive">
+                        
+                    </li>
+                    <li class="gal-item col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                        <img src="images/chantier/Image6.jpg" alt="Image6" class="img-responsive">
+                        
+                    </li>
+                    <li class="gal-item col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                        <img src="images/chantier/Image7.jpg" alt="Image7" class="img-responsive">
+                        
+                    </li>
+                    <li class="gal-item col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                        <img src="images/chantier/Image8.jpg" alt="Image8" class="img-responsive">
+                        
+                    </li>
+                    <li class="gal-item col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                        <img src="images/chantier/Image9.jpg" alt="Image9" class="img-responsive">
+                        
+                    </li>
+                    <li class="gal-item col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                        <img src="images/chantier/Image10.jpg" alt="Image10" class="img-responsive">
+                        
+                    </li>
+                    <li class="gal-item col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                        <img src="images/chantier/Image11.jpg" alt="Image11" class="img-responsive">
+                        
+                    </li>
+                    <li class="gal-item col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                        <img src="images/chantier/Image12.jpg" alt="Image12" class="img-responsive">
+                        
+                    </li>
+                </ul>
+            </h2>
+        </div>
     </section>
     
     <!-- SECTION ENTREPRISE -->
@@ -117,6 +181,9 @@
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
     
+        <!-- PLUGIN DE NAVIGATION -->    
+    <script src="js/jquery.nav.js"></script>
+    
     <!-- Backstretch JS -->
     <script src="js/jquery.backstretch.js"></script>
     <script>
@@ -127,6 +194,13 @@
         ], {
             fade: 1000,	//Vitesse du fade
             duration: 8000 	// Durée d'affichage des images
+        });
+    </script>
+    
+    <script>
+        $( document ).ready(function() {
+            // EMPLACEMENT DES SCRIPTS
+            $('#navbar').onePageNav();
         });
     </script>
 
