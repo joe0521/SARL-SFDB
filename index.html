@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="style/sfdb.css">
     
     <!-- FONT AWESOME -->
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -62,6 +62,17 @@
         </div>
     </header>
     
+    <!-- SECTION HOME -->
+    <section class="section-home">
+        <div class="container">
+            <div class="accueil-titre">
+                <h1 class="white-text big-text">SARL SFDB</h1>
+                <h2 class="white-text">Ferronnerie, menuiserie métallique, portails...</h2>
+                <img src="images/site-construction.png" alt="" class="construction">
+            </div>
+        </div>
+    </section>
+    
     <!-- SECTION REALISATION -->
     <section class="realisations" id="realisations">
        <!-- CONTENEUR BOOTSTRAP -->
@@ -72,6 +83,9 @@
                    <h1>Nos Réalisations</h1>
                    <h4>Découvrez toutes nos réalisations</h4>
                </div>
+            </div>
+            <div class="row aff-realisation">
+                
             </div>
            <!-- CONTENU SECTION -->
            <div class="row">
@@ -103,8 +117,8 @@
         </div>
     </section>
     
-    <!-- SECTION SEPARATION -->
-    <section class="separation">
+    <!-- SECTION SEPARATION NON VISIBLE SUR SMARTPHONE-->
+    <section class="separation hidden-xs">
         <div class="container">
             <h2 class="separation-text">
                <div class="row">
@@ -112,59 +126,93 @@
                        <p>Découvrez Quelques images de notre dernier chantier.</p>
                     </div>
                 </div>
+                
+                
+                <!-- LA GALERIE PORTFOLIO -->
                 <ul class="row galerie">
-                    <li class="gal-item col-xs-12 col-sm-6 col-md-4 col-lg-3">
-                        <img src="images/chantier/Image1.jpg" alt="Image1" class="img-responsive">
-                        <div class="img-mask">
-                           <div class="img-title">
-                               Titre Image
-                           </div>
-                            
-                        </div>
+                    <li class="gal-item col-sm-6 col-md-4 col-lg-3">
+                           <img src="images/chantier/Image1.jpg" alt="Image1" class="img-responsive">
+                            <div class="img-mask">
+                                <span class="img-title">Titre Image</span>
+                                <span class="img-descr">Une petite description de l'image</span>
+                            </div>
                     </li>
-                    <li class="gal-item col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                    <li class="gal-item col-sm-6 col-md-4 col-lg-3">
                         <img src="images/chantier/Image2.jpg" alt="Image2" class="img-responsive">
-                        
+                            <div class="img-mask">
+                                <span class="img-title">Titre Image</span>
+                                <span class="img-descr">Une petite description de l'image</span>
+                            </div>
                     </li>
-                    <li class="gal-item col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                    <li class="gal-item col-sm-6 col-md-4 col-lg-3">
                         <img src="images/chantier/Image3.jpg" alt="Image3" class="img-responsive">
-                        
+                            <div class="img-mask">
+                                <span class="img-title">Titre Image</span>
+                                <span class="img-descr">Une petite description de l'image</span>
+                            </div>
                     </li>
-                    <li class="gal-item col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                    <li class="gal-item col-sm-6 col-md-4 col-lg-3">
                         <img src="images/chantier/Image4.jpg" alt="Image4" class="img-responsive">
-                        
+                            <div class="img-mask">
+                                <span class="img-title">Titre Image</span>
+                                <span class="img-descr">Une petite description de l'image</span>
+                            </div>
                     </li>
-                    <li class="gal-item col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                    <li class="gal-item col-sm-6 col-md-4 col-lg-3">
                         <img src="images/chantier/Image5.jpg" alt="Image5" class="img-responsive">
-                        
+                            <div class="img-mask">
+                                <span class="img-title">Titre Image</span>
+                                <span class="img-descr">Une petite description de l'image</span>
+                            </div>
                     </li>
-                    <li class="gal-item col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                    <li class="gal-item col-sm-6 col-md-4 col-lg-3">
                         <img src="images/chantier/Image6.jpg" alt="Image6" class="img-responsive">
-                        
+                            <div class="img-mask">
+                                <span class="img-title">Titre Image</span>
+                                <span class="img-descr">Une petite description de l'image</span>
+                            </div>
                     </li>
-                    <li class="gal-item col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                    <li class="gal-item col-sm-6 col-md-4 col-lg-3">
                         <img src="images/chantier/Image7.jpg" alt="Image7" class="img-responsive">
-                        
+                            <div class="img-mask">
+                                <span class="img-title">Titre Image</span>
+                                <span class="img-descr">Une petite description de l'image</span>
+                            </div>
                     </li>
-                    <li class="gal-item col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                    <li class="gal-item col-sm-6 col-md-4 col-lg-3">
                         <img src="images/chantier/Image8.jpg" alt="Image8" class="img-responsive">
-                        
+                            <div class="img-mask">
+                                <span class="img-title">Titre Image</span>
+                                <span class="img-descr">Une petite description de l'image</span>
+                            </div>
                     </li>
-                    <li class="gal-item col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                    <li class="gal-item col-sm-6 col-md-4 col-lg-3">
                         <img src="images/chantier/Image9.jpg" alt="Image9" class="img-responsive">
-                        
+                            <div class="img-mask">
+                                <span class="img-title">Titre Image</span>
+                                <span class="img-descr">Une petite description de l'image</span>
+                            </div>
                     </li>
-                    <li class="gal-item col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                    <li class="gal-item col-sm-6 col-md-4 col-lg-3">
                         <img src="images/chantier/Image10.jpg" alt="Image10" class="img-responsive">
-                        
+                            <div class="img-mask">
+                                <span class="img-title">Titre Image</span>
+                                <span class="img-descr">Une petite description de l'image</span>
+                            </div>
                     </li>
-                    <li class="gal-item col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                    <li class="gal-item col-sm-6 col-md-4 col-lg-3">
                         <img src="images/chantier/Image11.jpg" alt="Image11" class="img-responsive">
-                        
+                            <div class="img-mask">
+                                <span class="img-title">Titre Image</span>
+                                <span class="img-descr">Une petite description de l'image</span>
+                            </div>
                     </li>
-                    <li class="gal-item col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                    <li class="gal-item col-sm-6 col-md-4 col-lg-3">
                         <img src="images/chantier/Image12.jpg" alt="Image12" class="img-responsive">
-                        
+                            <div class="img-mask">
+                                <span class="img-title">Titre Image</span>
+                                <span class="img-descr">Une petite description de l'image</span>
+                            </div>
                     </li>
                 </ul>
             </h2>
@@ -173,8 +221,104 @@
     
     <!-- SECTION ENTREPRISE -->
     <section class="entreprise" id="entreprise">
+        <!-- TITRE DE LA SECTION -->
+        <div class="section-header">
+            <h1 class="titre-section">A propos de l'entreprise</h1>
+            <h2 class="soustitre-section">Menuiserie métalique, Grilles de sécurité, Garde corps, etc...</h2>
+        </div>
         
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 acc-phrase">Lorem Ipsum Dolor Sit Amet Depuis 2012</div>
+                <div class="col-md-4 entreprise-desc">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam amet id, neque doloremque nulla hic accusamus illum deserunt. Doloribus deleniti eligendi totam, a perferendis molestiae fuga omnis, maxime odio at.
+                    </p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit nisi, fuga. Ad iste vero ipsum, praesentium nam ratione hic aliquam. Expedita quibusdam et rerum sit officia eveniet aliquam excepturi quos.
+                    </p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque dolores laboriosam nostrum iusto, tenetur molestias amet quam, optio soluta repellat blanditiis beatae omnis placeat, esse recusandae officiis consequuntur nisi accusantium.
+                    </p>
+                </div>
+                <div class="col-md-4">
+                   <div class="row skill-space">
+                       <aside class="col-xs-3"><div class="icone-entreprise"><i class="fa fa-check"></i></div></aside>
+                       <article class="col-xs-9"><h5 class="skill-title">Rapidité</h5></article>
+                       <article class="col-xs-9 entreprise-desc">Lorem ipsum dolor sit amet</article>
+                   </div>
+                      <div class="row skill-space">
+                       <aside class="col-xs-3"><div class="icone-entreprise"><i class="fa fa-check"></i></div></aside>
+                       <article class="col-xs-9"><h5 class="skill-title">Qualité</h5></article>
+                       <article class="col-xs-9 entreprise-desc">Lorem ipsum dolor sit amet</article>
+                   </div>
+                      <div class="row skill-space">
+                       <aside class="col-xs-3"><div class="icone-entreprise"><i class="fa fa-check"></i></div></aside>
+                       <article class="col-xs-9"><h5 class="skill-title">Sécurité</h5></article>
+                       <article class="col-xs-9 entreprise-desc">Lorem ipsum dolor sit amet</article>
+                   </div>
+                </div>
+            </div>
+        </div>
     </section>
+    
+    <!-- SECTION CONTACT -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <h1 class="titre-section">Restez en contact</h1>
+                <h2 class="soustitre-section">Vous avez des questions ? Envoyez-nous un message.</h2>
+            </div>
+            <form action="mail.php" id="monForm" class="contact-form" role="form" method="post">
+                <div class="row">
+                    <div class="col-sm-4 vertical-space">
+                        <input id="nom" type="text" class="form-control" placeholder="Votre nom" required>
+                    </div>
+                    <div class="col-sm-4 vertical-space">
+                        <input id="mail" type="email" class="form-control" placeholder="Votre email" required>
+                    </div>
+                    <div class="col-sm-4 vertical-space">
+                        <input id="sujet" type="text" class="form-control" placeholder="Sujet" required>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12 vertical-space">
+                        <textarea id="message" name="" class="form-control textarea-box" placeholder="Votre message..." required></textarea>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="pull-right">
+                        <button type="submit" class="btn custom-button" id="submit-button">Envoyer</button>
+                    </div>
+                </div>
+            </form>
+            
+        </div>
+    </section>
+    
+    <!-- PIED DE PAGE -->
+    <footer class="footer-section">
+        <div class="container">
+           <div class="row">
+               <div class="col-sm-4">
+                   <div class="icone-top red-text">
+                       <i class="fa fa-map-marker"></i>
+                   </div>
+                   4 rue des pangolins,  57820 DANNELBOURG
+               </div>
+               <div class="col-sm-4">
+                    <div class="icone-top green-text">
+                       <i class="fa fa-envelope"></i>
+                   </div>
+                   contact@sarlsfdb.com
+               </div>
+               <div class="col-sm-4">
+                    <div class="icone-top blue-text">
+                       <i class="fa fa-phone"></i>
+                   </div>
+                   +(33)7 12 34 56 78
+               </div>
+           </div>
+            
+        </div>
+    </footer>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
@@ -201,6 +345,57 @@
         $( document ).ready(function() {
             // EMPLACEMENT DES SCRIPTS
             $('#navbar').onePageNav();
+            
+            // TRAITEMENT DU FORMLAIRE
+            $('#monForm').on('submit', function(e) {
+                e.preventDefault(); // J'empêche le comportement par défaut du navigateur, c-à-d de soumettre le formulaire
+                
+                var $this = $(this); // L'objet jQuery du formulaire
+ 
+                // Je récupère les valeurs
+                var nom = $('#nom').val();
+                var mail = $('#mail').val();
+                var sujet = $('#sujet').val();
+                var message = $('#message').val();
+                
+                // ON MODIFIE L'ASPECT DU BOUTON
+                $('#submit-button').attr('disabled','disabled');
+                $('#submit-button').text('       ');
+                $('#submit-button').css('background','#e96656 url(images/712.GIF) center center no-repeat');
+
+                // ENVOI DU MAIL
+                $.ajax({
+                    url: "mail.php",
+                    type: "post",
+                    data: {nom: nom, mail: mail, sujet: sujet, message: message}, 
+                    success: function(html){
+                        if(html==1){
+                            // ENVOI REUSSI
+                            $('#submit-button').text('Envoyé');
+                            $('#submit-button').css('background','#56c93f');
+                            // REMISE EN ETAT DU BOUTON
+                            setTimeout(function(){
+                                // reset du formulaire
+                                $('#monForm').get(0).reset();
+                                $('#submit-button').removeAttr('disabled');
+                                $('#submit-button').text('Envoyer');
+                                $('#submit-button').css('background','#e96656');
+                            },5000); 
+                        }
+                        else{
+                            // Erreur lors de l'envoi
+                            $('#submit-button').text('Erreur');
+                            $('#submit-button').css('background','#d45252');
+                            // ON TENTE DE REENVOYER
+                             setTimeout(function(){
+                                $('#submit-button').removeAttr('disabled');
+                                $('#submit-button').text('Réenvoyer');
+                                $('#submit-button').css('background','#e96656');
+                            },5000); 
+                        }
+                    }
+                });
+            });
         });
     </script>
 
